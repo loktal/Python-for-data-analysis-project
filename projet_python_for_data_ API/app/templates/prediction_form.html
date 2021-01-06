@@ -1,0 +1,25 @@
+
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+
+{%block content%}
+    <center>
+    <img class="starcraft"
+        style="text-align: center;"
+        src="https://d2m5zqqcosbe2i.cloudfront.net/media/cache/default_format/uploads/media/1/2877-article-patch-sc2-bandeau.jpg"
+        alt="bandeau starcrat2"
+        width="1440">
+    </center>
+    <div class="container">
+        
+        <h1>Quels sont vos stats ?</h1>
+        <hr>
+            {{ wtf.quick_form(form) }}
+        </hr>
+        
+    </div>
+{%endblock%}
+
+
+

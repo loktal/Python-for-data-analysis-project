@@ -1,0 +1,58 @@
+/** app/static/css/style.css **/
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+.header  {
+    height: 90px;
+    margin: 0;
+    background : url('Images/starcraft2.jpg');
+}
+
+body {
+    background-color: #c7c7c7;
+    font-family: Lato;
+}
+
+h1 {
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+p {
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+button {
+    display: inline-block;
+    background-color: #1e1ae6;
+    border-radius: 10px;
+    border: 4px double #000000;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+
+
+button:hover {
+    background-color: rgb(4, 182, 253);
+}
+
